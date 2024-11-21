@@ -67,10 +67,6 @@ header a:hover {
     height: 500px;
 }
 
-.banner-title {
-    margin-right: 150px;
-}
-
 .banner-title h1 {
     font-size: 40px;
     font-family: "Kumbh Sans", sans-serif;
@@ -95,18 +91,34 @@ header a:hover {
     margin-top: 25px;
 }
 
+.img-1 img {
+    width: 220px;
+    margin-top: 200px;
+}
 
-.img-1 {
-    position: absolute;
-    width: 100px;
+.img-2 img {
+    width: 200px;
+    margin-top: 120px;
+    margin-left: -20px;
+}
+
+.img-3 img {
+    width: 200px;
+    z-index: 1;
     margin-left: -10px;
+    margin-top: 500px;
 }
 
-.img-2 {
-    width: 100px;
+.big-title {
+    display: flex; 
+    align-items: center; 
+    padding: 100px 200px;
 }
 
-.img-3 {
-    width: 100px;
+.big-title h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 200;
+    font-size: 90px;
+    letter-spacing: 15px;
 }
 
