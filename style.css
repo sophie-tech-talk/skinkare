@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    height: 100vh; /* l'image occupe la hauteur totale de la fenêtre du navigateur, peu importe la taille de l'écran */
+}
+
+header {
+    max-width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; /*centre verticalement */
+    padding: 20px 50px ; 
+    box-shadow: rgba (0,0,0,0.1) 0 0 10px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 40px;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+    letter-spacing: 15px;
+}
+
+header ul {
+    list-style: none;
+    display: flex; /* Aligne les éléments de la liste */
+}
+
+header ul li {
+    margin: 0 10px; 
+    font-size: 12px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.5s;
+    border-radius: 6px;
+}
+
+header a:hover {
+    background-color: black;
+    color: white;
+}
+
+.shopping-icon span {
+    color: white;
+}
+
+.banner {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background: 
+        linear-gradient(rgba(228, 235, 231, 0.88), rgba(228, 235, 231, 0.88)),
+        url(/img/background-banner.jpg);
+    background-size: cover; /*Couvrir tout l'écran avec l'image */
+    background-position: center; /* Centrer l'image */
+    height: 500px;
+}
+
+.banner-title {
+    margin-right: 150px;
+}
+
+.banner-title h1 {
+    font-size: 40px;
+    font-family: "Kumbh Sans", sans-serif;
+    letter-spacing: 15px;
+}
+
+.banner-title h2 {
+    font-size: 40px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 200;
+    letter-spacing: 15px;
+}
+
+.banner-title button {
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50px;
+    color: white;
+    background-color: #293B30;
+    padding: 10px 35px;
+    border: none;
+    margin-top: 25px;
+}
+
+
+.img-1 {
+    position: absolute;
+    width: 100px;
+    margin-left: -10px;
+}
+
+.img-2 {
+    width: 100px;
+}
+
+.img-3 {
+    width: 100px;
+}
+
