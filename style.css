@@ -61,7 +61,7 @@ header a:hover {
     align-items: center; 
     background: 
         linear-gradient(rgba(228, 235, 231, 0.88), rgba(228, 235, 231, 0.88)),
-        url(/img/background-banner.jpg);
+        url(img/background-banner.jpg);
     background-size: cover; /*Couvrir tout l'écran avec l'image */
     background-position: center; /* Centrer l'image */
     height: 500px;
@@ -120,5 +120,4 @@ header a:hover {
     font-weight: 200;
     font-size: 90px;
     letter-spacing: 15px;
-}
-
+}  
